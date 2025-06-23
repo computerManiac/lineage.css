@@ -1,0 +1,7 @@
+$i: 5;
+@while $i <= 100 {
+	.border-radius-#{$i} {
+		border-radius: #{$i}px;
+	}
+	$i: $i + 5;
+}

@@ -1,0 +1,64 @@
+@use 'sass:math';
+
+// Define variables
+
+$colors: (
+	"white": #FFF,
+	"black": #000,
+	"light-gray": #f5f5f5,
+	"gray": #808080,
+	"dark-gray": #333333,
+	"primary": #326eee,
+	"sky-blue": #17a2b8,
+	"red": #dc3545,
+	"green": #28a745,
+	"yellow": #ffc107,
+	"orange": #fd7e14,
+	"navy": #001f3f,
+	"purple": #6f42c1,
+	"teal": #20c997,
+	"beige": #F5f5dc,
+	"light-blue": #add8e6,
+	"slate": #6c757d,
+	"light-green": #90ee90,
+	"pink": #e83e8c,
+	"jet-black": #121212,
+	"dark-charcoal": #1e1e1e,
+	"dark-slate-gray": #2c2c2c,
+	"gunmetal": #3a3a3a,
+	"off-white": #e0e0e0,
+	"cool-gray": #b0b0b0,
+	"dim-gray": #6c757d,
+	"electric-blue": #0d6efd,
+	"aqua-blue": #0dcaf0,
+	"emerald": #19875d,
+	"crimson": #dc3545,
+	"amber": #ffc107,
+	"light-overlay": rgba(255, 255, 255, 0.05),
+	"dark-overlay": rgba(0, 0, 0, 0.5)
+);
+
+// Margin variables
+$base-margin: 5px;
+$lg-margin: 2*$base-margin;
+$xl-margin: 4*$base-margin;
+$xxl-margin: 10*$base-margin;
+
+// Border Radius variables
+$base-border-radius: 10px;
+$base-border-thickness: 1px;
+
+// Padding variables
+$base-padding: 5px;
+$md-padding: 2*$base-padding;
+$lg-padding: 4*$base-padding;
+
+// Content size variables
+$content-width: 0.9vw;
+$content-height: math.div(9, 16)*0.9vh;
+
+// Box Shadow variable
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+
+// Movement variables
+$move-length: 10px;

@@ -1,0 +1,28 @@
+.element-group {
+	.element {
+		margin-bottom: -1px;
+		border: $base-border-thickness solid #000;	
+		padding: $base-padding;
+		background-color: white;
+		&:hover {
+			background-color: #000;
+			color: white;
+		}
+	}	
+}
+
+@each $key, $val in $colors {
+	.element-group-#{$key} {
+		.element {
+			margin-bottom: -1px;
+			border: $base-border-thickness solid $val;	
+			padding: $base-padding;
+			background-color: white;
+			color: $val;
+			&:hover {
+				background-color: $val;
+				color: white;
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+@each $key, $val in $colors {
+	.text-#{$key} {
+		color: $val;
+	}
+
+	.bg-#{$key} {
+		background-color: $val;
+	}
+
+	.border-#{$key} {
+		border-color: $val;
+	}
+
+	.shadow-#{$key} {
+		box-shadow: 1px 3px 5px $val;
+	}
+}

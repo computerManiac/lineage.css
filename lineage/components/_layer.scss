@@ -1,0 +1,31 @@
+.layer {
+	margin: $base-margin;
+	border: $base-border-thickness solid #DDD;	
+	max-width: 30vw;
+	max-height: inherit;
+	box-shadow: $base-box-shadow; 
+
+	.layer-title {
+		text-align: center;
+		max-width: inherit;
+		padding: $lg-padding;
+		background-color: map-get($colors, 'primary');
+		color: white;
+	}
+
+	@each $key, $val in $colors {
+		.layer-title-#{$key} { 
+			text-align: center;
+			max-width: inherit;
+			padding: $lg-padding;
+			background-color: $val;
+			color: white; 
+		}
+	}
+
+	.layer-body {
+		max-width: inherit;
+		padding: $lg-padding;
+	}
+
+}
