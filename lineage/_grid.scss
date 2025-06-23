@@ -1,0 +1,11 @@
+@use 'sass:math';
+
+@for $i from 1 through 5 {
+	.grid-#{$i} {
+		@for $j from 1 through $i {
+			> :nth-child(#{$j}) {
+				width: #{math.floor(math.div($content-width, $i)) - 1}vw;
+			}
+		}
+	}
+}

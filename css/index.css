@@ -528,9 +528,9 @@
 }
 
 .layer {
+  display: inline-grid;
   margin: 5px;
   border: 1px solid #DDD;
-  max-width: 30vw;
   max-height: inherit;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -1262,6 +1262,56 @@
 .element-group-dark-overlay .element:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+}
+
+.grid-1 > :nth-child(1) {
+  width: 89vw;
+}
+
+.grid-2 > :nth-child(1) {
+  width: 44vw;
+}
+.grid-2 > :nth-child(2) {
+  width: 44vw;
+}
+
+.grid-3 > :nth-child(1) {
+  width: 29vw;
+}
+.grid-3 > :nth-child(2) {
+  width: 29vw;
+}
+.grid-3 > :nth-child(3) {
+  width: 29vw;
+}
+
+.grid-4 > :nth-child(1) {
+  width: 21vw;
+}
+.grid-4 > :nth-child(2) {
+  width: 21vw;
+}
+.grid-4 > :nth-child(3) {
+  width: 21vw;
+}
+.grid-4 > :nth-child(4) {
+  width: 21vw;
+}
+
+.grid-5 > :nth-child(1) {
+  width: 17vw;
+}
+.grid-5 > :nth-child(2) {
+  width: 17vw;
+}
+.grid-5 > :nth-child(3) {
+  width: 17vw;
+}
+.grid-5 > :nth-child(4) {
+  width: 17vw;
+}
+.grid-5 > :nth-child(5) {
+  width: 17vw;
 }
 
 /* reset styles */

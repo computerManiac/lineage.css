@@ -54,8 +54,8 @@ $md-padding: 2*$base-padding;
 $lg-padding: 4*$base-padding;
 
 // Content size variables
-$content-width: 0.9vw;
-$content-height: math.div(9, 16)*0.9vh;
+$content-width: 90;
+$content-height: math.div(9, 16)*90;
 
 // Box Shadow variable
 $base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);

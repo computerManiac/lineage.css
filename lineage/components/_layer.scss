@@ -1,7 +1,7 @@
 .layer {
+	display: inline-grid;
 	margin: $base-margin;
 	border: $base-border-thickness solid #DDD;	
-	max-width: 30vw;
 	max-height: inherit;
 	box-shadow: $base-box-shadow; 
 
